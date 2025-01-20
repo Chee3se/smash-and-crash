@@ -1,5 +1,0 @@
-'git checkout main' & 'git pull origin main --ff'
-'git checkout -b PB-XX/FeatureY'
-'git add .' & git commit -m "PB-XX | change description"
-'git push origin PB-XX/FeatureY'
-Github -> create new PR -> Ready for review
