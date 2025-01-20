@@ -1,1 +1,71 @@
+body {
 
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f4f4;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    margin: 0;
+
+}
+
+.button-container {
+
+    display: flex;
+
+    gap: 20px; /* Atstarpe starp pogām */
+
+}
+
+.button {
+
+    padding: 15px 30px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: #fff;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.smash {
+
+    background-color: #800080; /* Violets */
+
+}
+
+.smash:hover {
+
+    background-color: #5e005e; /* Tumšāks violets */
+
+}
+
+.crash {
+
+    background-color: #0000ff; /* Zils */
+
+}
+
+.crash:hover {
+
+    background-color: #000080; /* Tumšāks zils */
+
+}
