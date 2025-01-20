@@ -1,8 +1,8 @@
 body {
 
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
 
     display: flex;
 
@@ -14,58 +14,76 @@ body {
 
     margin: 0;
 
+    overflow: hidden;
+
 }
 
 .button-container {
 
     display: flex;
 
-    gap: 20px; /* Atstarpe starp pogām */
+    gap: 40px; /* Liela atstarpe starp pogām */
 
 }
 
 .button {
 
-    padding: 15px 30px;
+    padding: 20px 40px;
 
-    font-size: 20px;
+    font-size: 24px;
 
     font-weight: bold;
 
-    color: #fff;
+    color: #ffffff;
 
     border: none;
 
-    border-radius: 10px;
+    border-radius: 12px;
 
     cursor: pointer;
 
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+
+    letter-spacing: 1.2px;
+
+    text-transform: uppercase;
+
+}
+
+.button:active {
+
+    transform: scale(0.95);
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 
 }
 
 .smash {
 
-    background-color: #800080; /* Violets */
+    background: linear-gradient(135deg, #8a2be2, #4b0082);
 
 }
 
 .smash:hover {
 
-    background-color: #5e005e; /* Tumšāks violets */
+    background: linear-gradient(135deg, #5e005e, #2c0032);
+
+    box-shadow: 0 12px 20px rgba(138, 43, 226, 0.5);
 
 }
 
 .crash {
 
-    background-color: #0000ff; /* Zils */
+    background: linear-gradient(135deg, #1e90ff, #104e8b);
 
 }
 
 .crash:hover {
 
-    background-color: #000080; /* Tumšāks zils */
+    background: linear-gradient(135deg, #0b3d91, #001c4f);
+
+    box-shadow: 0 12px 20px rgba(30, 144, 255, 0.5);
 
 }
